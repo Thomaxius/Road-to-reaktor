@@ -1,0 +1,123 @@
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background: #f5f3f3;
+    color: #4a5053;
+    font-family: OpenSans, sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI",  "Helvetica Neue", "sans-serif";
+}
+
+#header {
+
+    background: rgb(138, 160, 255);
+    border-bottom: 2px solid #ffffff;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.content-wrapper {
+
+    margin: 0 auto;
+    text-align: left;
+    max-width: 100%;
+    width: 1200px;
+
+}
+
+button, input {
+    font: inherit;
+    font-size: inherit;
+}
+
+#main .body {
+
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    float: left;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+
+    display: block;
+
+}
+
+.subtitle {
+    margin-bottom: 10px;
+}
+
+#main .chart {
+    box-sizing: border-box;
+    min-height: 180px;
+    margin: 0% 0% 5% 7%;
+    position: relative;
+}
+
+#main .sidebar {
+    font-size: 13px;
+}
+
+#main .sidebar {
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 0 0 0 20px;
+    width: 100%
+}
+
+
+@media (min-width: 768px) {
+    #main {
+        padding:15px 0 0
+    }
+    #main h1 {
+        font-size: 23px;
+        font-size: 2.3rem
+    }
+
+    #main .body {
+        float: left;
+        width: 68%
+    }
+
+    #main .sidebar {
+        background: none;
+        box-shadow: none;
+        box-sizing: border-box;
+        float: left;
+        margin: 0;
+        padding: 0 0 0 20px;
+        width: 32%
+    }
+
+}
+
+.yearRangeInput {
+    background: rgb(255, 255, 255);
+}
+
+#main .sidebar .country-info-cards .chart-list {
+    border-radius: 2px;
+    margin: 0;
+}
