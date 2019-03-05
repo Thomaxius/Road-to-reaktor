@@ -15,7 +15,7 @@ The app contains the following endpoints:
 - Fetching all countries and all data for a specific year (/emissions/all/years/2010)
 
 **How to run:**
-- run npm init
+- run npm install
 - Edit .env, add Postgres etc. configuration
 - Create tables with ```npm run-script init-db```
 - Start the server with  ```npm start-server init-db```. This will also download newest data csvs from API and parse them to the database
